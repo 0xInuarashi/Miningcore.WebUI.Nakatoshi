@@ -31,7 +31,7 @@ if (WebURL.substring(WebURL.length-1) != "/")
 	console.log('Corrected WebURL, does not end with / -> New WebURL : ', WebURL);
 }
 
-var API            = "http://45.9.149.106:4000" + "/" + "api/";   						// API address is:  https://domain.com/api/
+var API            = "https://bel-api.cypherlabz.io" + "/" + "api/";   						// API address is:  https://domain.com/api/
 // API correction if not ends with /
 if (API.substring(API.length-1) != "/")
 {
