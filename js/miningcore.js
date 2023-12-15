@@ -31,14 +31,14 @@ if (WebURL.substring(WebURL.length-1) != "/")
 	console.log('Corrected WebURL, does not end with / -> New WebURL : ', WebURL);
 }
 
-var API            = "https://bel-api.cypherlabz.io" + "/" + "api/";   						// API address is:  https://domain.com/api/
+var API            = "https://api.bel.cool" + "/" + "api/";   						// API address is:  https://domain.com/api/
 // API correction if not ends with /
 if (API.substring(API.length-1) != "/")
 {
 	API = API + "/";
 	console.log('Corrected API, does not end with / -> New API : ', API);
 } 
-var stratumAddress = "45.9.149.106";           				// Stratum address is:  domain.com
+var stratumAddress = "pool.bel.cool";           				// Stratum address is:  domain.com
 
 
 
